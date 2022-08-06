@@ -230,20 +230,15 @@
                                 margin: 226px 157px 184px 157px;
                             }
                         }
+                        /* Mobile styling */
                         
                         @media only screen and (max-device-width: 833px) {
                             .main-img,
-                            .p,
-                            .login {
+                            .p {
                                 display: none;
                             }
-                            .first-line {
-                                display: flex;
-                                flex: 1;
-                                justify-content: space-between;
-                                align-items: center;
-                                margin: 20px 50px 0px 0px;
-                                padding: 1.4em;
+                            .main {
+                                width: 100%;
                             }
                             .second-line {
                                 display: flex;
@@ -256,7 +251,7 @@
                                 margin: 36px 192px 0px 192px;
                             }
                             .reset {
-                                font-size: 24px;
+                                font-size: 22px;
                                 margin: 24px 122px;
                                 color: rgba(37, 17, 129, 1);
                                 font-weight: 700;
